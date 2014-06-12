@@ -18,8 +18,6 @@ def Blink(numTimes,speed):
         print "Looped: " + str(x+1)
         time.sleep(speed)
         GPIO.output(7,True)
-        GPIO.output(11,False)
-        GPIO.output(13, False)
         GPIO.output(15, False)
         time.sleep(speed)
         GPIO.output(7,False)
